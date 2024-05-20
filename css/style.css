@@ -17,7 +17,10 @@ body{
     font-optical-sizing: auto;
     color: var(--white);
 }
-
+a{
+    text-decoration: none;
+    color: var(--white);
+}
 .uni-btn{
     background: transparent;
     border: 1px solid  var(--primary--color);
@@ -112,7 +115,7 @@ margin-top: 50px;
     }
 
 /* projets start here  */
-#projets{
+#projects{
     background: var(--bg--color);
 }
 .card-body{
@@ -129,3 +132,91 @@ margin-top: 50px;
         margin-top: 50px;
     }
 }
+
+#project-hr{
+    border: 1px solid var(--primary--color);
+    width: 60%;
+    margin-left: 80px;
+}
+
+/* projets end here  */
+
+/* skills start here  */
+#skills{
+    background: var(--bg--color);   
+}
+tr{
+    border: 1px solid var(--gray);
+}
+td,th{
+    padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@media (max-width: 768px) {
+    #Languages{
+        margin-bottom: 20px;
+    }
+    #Wordpress{
+        margin-bottom: 20px;
+    }
+
+}
+
+/* about me start here  */
+#aboutme{
+    background: var(--bg--color);
+    padding-top:100px ;
+    padding-bottom:30px ;
+}
+/* about me end here  */
+/* contact start here  */
+#contact{
+    background: var(--bg--color);   
+    padding-bottom:100px ;
+    padding-top:100px ;
+}
+
+#contact-box{
+    border: 2px solid var(--gray);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center     ;
+    width:70%;
+}
+@media (max-width: 320px) {
+    #contact-box{
+        width: 100%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    #contact-box{
+        width: 100%;
+    }
+}
+/*Contact end here  */
+/* footer start here  */
+footer{
+    background: var(--bg--color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid var(--gray);
+}
+footer p{
+    font-size: 12px;
+    
+}
+
+#footer-social , #footer-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer end here  */
