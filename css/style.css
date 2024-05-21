@@ -75,6 +75,7 @@ header{
     display: block;
     padding-bottom: 10px;
 }
+
 @media screen and (max-width:425px){
     #social-icons a{
         display: none;
